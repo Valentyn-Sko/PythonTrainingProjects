@@ -1,0 +1,9 @@
+myfile = open('fruits.txt')
+print(myfile.read())
+
+
+with open('fruits.txt') as myfile:
+    content = myfile.read()
+
+with open('fruits.txt', 'a') as myfile:
+    myfile.write('new row')
