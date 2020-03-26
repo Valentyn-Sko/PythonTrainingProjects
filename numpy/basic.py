@@ -17,7 +17,7 @@ some = [[123,12,132,12,22],[],[]]
 m = numpy.asarray(some)
 print(m)
 
-im_g = cv2.imread('original.png', 0)
+im_g = cv2.imread('original1.png', 0)
 print(im_g)
 
 cv2.imwrite('new.png', im_g[0:2,0:3])
@@ -35,3 +35,4 @@ print(ivs)
 
 lst = numpy.hsplit(ims, 5) #same vsplit
 print(lst)
+
